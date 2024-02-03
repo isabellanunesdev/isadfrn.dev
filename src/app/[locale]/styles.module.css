@@ -1,0 +1,62 @@
+.main {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("../../../public/images/mobile-bg-landing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  height: 100vh;
+  width: 85%;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 300;
+  color: #1280e2;
+}
+
+.headline {
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+.link {
+  font-size: 2.8rem;
+  color: #1280e2;
+
+  position: fixed;
+  bottom: 2rem;
+
+  transition: all 300ms;
+  animation: blink 2s infinite;
+}
+
+.link:hover {
+  filter: brightness(1.4);
+  bottom: 3rem;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .main {
+    background-image: url("../../../public/images/desktop-bg-landing.png");
+  }
+}

@@ -1,0 +1,53 @@
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  width: 85%;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.message {
+  font-weight: 200;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.list {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.listItem {
+  list-style: none;
+}
+
+.link {
+  font-size: 2.8rem;
+  color: #1280e2;
+
+  transition: all 300ms;
+}
+
+.link:hover {
+  filter: brightness(1.4);
+}
+
+.thanks {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 60%;
+  }
+}
