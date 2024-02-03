@@ -24,6 +24,12 @@ npm install
 npm run dev
 ```
 
+or run with docker:
+
+```shell
+docker compose up -d
+```
+
 ## Contributing
 
 This repository is using [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), so if you want to contribute:
