@@ -12,7 +12,7 @@ This is my personal portfolio.
 
 To run this project locally, you need to:
 
-- Install dependencies for both backend and frontend
+- Install dependencies
 
 ```shell
 npm install
